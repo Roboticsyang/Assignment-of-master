@@ -1,0 +1,18 @@
+﻿  project2.cpp
+D:\VS2019_Community\VC\Tools\MSVC\14.29.30133\include\GL\gl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(83,16): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(85,16): warning C4305: “-=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(87,16): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(89,16): warning C4305: “-=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(96,17): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(98,17): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(100,17): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(103,16): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(105,16): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(108,16): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(119,17): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(123,17): warning C4305: “+=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(127,17): warning C4305: “-=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(128,17): warning C4305: “-=”: 从“double”到“float”截断
+D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\project2.cpp(129,17): warning C4305: “-=”: 从“double”到“float”截断
+  project2.vcxproj -> D:\0\master\课件\虚拟现实技术\openGLproject\2\project2\project2\Debug\project2.exe

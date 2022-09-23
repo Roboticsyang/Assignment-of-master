@@ -1,0 +1,4 @@
+﻿  QUICKSORT_int.cpp
+D:\Gitee\data-structure-and-algorithm\第1次作业213731屈飞扬\QUICKSORT_int\QUICKSORT_int.cpp(80,30): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Gitee\data-structure-and-algorithm\第1次作业213731屈飞扬\QUICKSORT_int\QUICKSORT_int.cpp(89,36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  QUICKSORT_int.vcxproj -> D:\Gitee\data-structure-and-algorithm\第1次作业213731屈飞扬\QUICKSORT_int\x64\Debug\QUICKSORT_int.exe

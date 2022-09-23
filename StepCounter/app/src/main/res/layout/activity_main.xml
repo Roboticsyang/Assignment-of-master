@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="#00BCD4">
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@android:drawable/ic_menu_myplaces" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="@drawable/ic_launcher_background"
+            android:gravity="center"
+            android:text="StepCounter"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/on"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6EA82B"
+        android:gravity="center"
+        android:text="启动计步器"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_lock_power_off"
+        app:iconTint="#86ED05"
+        app:rippleColor="#1C0606" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:text="停止计步器"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_media_pause" />
+
+    <Button
+        android:id="@+id/off"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:text="清除计步器"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_popup_sync"
+        app:rippleColor="#B64545" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="您当前走的步数为:"
+        android:textColor="#BC1717"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/t0"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="初末加速度m/(s*s)"
+        android:textColor="#CC3030"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="xyz"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:text="触发间隔(ms)："
+        android:textColor="#C61414"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/tc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8BC34A"
+        android:onClick="toTmeCounter"
+        android:text="倒计时模式"
+        android:textAlignment="center"
+        android:textColor="#E67F7F"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:rippleColor="#B64545"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+﻿  project3.cpp
+D:\VS2019_Community\VC\Tools\MSVC\14.29.30133\include\GL\gl.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  project3.vcxproj -> D:\0\master\课件\虚拟现实技术\openGLproject\3\project3\Debug\project3.exe
